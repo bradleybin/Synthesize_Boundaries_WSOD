@@ -2,15 +2,15 @@
 
 ## Usage
 ### 1. Download
-##### 1.1 Download the DUTS and other datasets and unzip them into ../framework/data folder. Scribble labels can be downloaed from [Scribble Saliency](https://github.com/JingZhang617/Scribble_Saliency).
-##### 1.2 Download ResNet-50 pretrained models and save it into ../framework folder ([Res50](https://drive.google.com/file/d/1arzcXccUPW1QpvBrAaaBv1CapviBQAJL/view))
+##### 1.1 Download the DUTS and other datasets and unzip them into framework/data folder. Scribble labels can be downloaed from [Scribble Saliency](https://github.com/JingZhang617/Scribble_Saliency).
+##### 1.2 Download ResNet-50 pretrained models and save it into framework folder ([Res50](https://drive.google.com/file/d/1arzcXccUPW1QpvBrAaaBv1CapviBQAJL/view))
 
 
 ### 2. Synthetic Image Generation
 ```bash
 python code/synthetic_image_generation/main.py
 ```
-save it into ../framework/data folder
+save it into framework/data folder
 
 ### 3. Train 
 ```bash
