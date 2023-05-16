@@ -8,13 +8,13 @@
 
 ### 2. Synthetic Image Generation
 ```bash
-python code/synthetic_image_generation/main.py
+python synthetic_image_generation/main.py
 ```
 save it into framework/data folder
 
 ### 3. Train 
 ```bash
-python code/framework/train.py
+python framework/train.py
 ```
 
 ### 4. Predict
